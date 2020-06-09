@@ -30,24 +30,28 @@
         <img src="Images/FB.png" alt="facebook-img" />
       </div>
       <div class="right-content">
-        <h2 class="right-content-title">Create an account</h2>
-        <p class="right-content-desc">It's quick and easy.</p>
-        <input type="text" placeholder="First name" />
-        <input type="text" placeholder="Surname" />
-        <input type="text" placeholder="Mobile number or email address" />
-        <input type="text" placeholder="New password" />
-        <p>Birthday</p>
-        <input type="date" />
-        <p>Gender</p>
-        <div class="radio-list">
-          <input type="radio" />
-          <label for="">Female</label>
-          <input type="radio" />
-          <label for="">Male</label>
-          <input type="radio" />
-          <label for="">Custom</label>
+        <div class="top-right-content">
+          <h2 class="right-content-title">Create an account</h2>
+          <p class="right-content-desc">It's quick and easy.</p>
         </div>
-        <p>
+        <div class="name">
+          <input type="text" placeholder="First name" />
+          <input type="text" placeholder="Surname" />
+        </div>
+        <input type="text" placeholder="Mobile number or email address" />
+        <input type="text" placeholder="New password" class="password" />
+        <p class="category">Birthday</p>
+        <input type="date" class="date" />
+        <p class="category birthday">Gender</p>
+        <div class="radio-list">
+          <input type="radio" name="male-female-custom" id="female" />
+          <label for="female">Female</label>
+          <input type="radio" name="male-female-custom" id="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="male-female-custom" id="custom" />
+          <label for="custom">Custom</label>
+        </div>
+        <p class="btn-desc">
           By clicking Sign Up, you agree to our Terms. Learn how we collect, use
           and share your data in our Data Policy and how we use cookies and
           similar technology in our Cookie Policy. You may receive SMS
