@@ -256,4 +256,31 @@
 .main .last-text a:hover {
   text-decoration: underline;
 }
+
+.footer {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  font-size: 12px;
+  margin: 0 109.5px;
+}
+
+.footer span {
+  color: #737373;
+}
+
+.footer .languages {
+  border-bottom: 1px solid #dddfe2;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #385898;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer .final-word {
+  color: #737373;
+}
 /*# sourceMappingURL=style.css.map */
