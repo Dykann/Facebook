@@ -25,7 +25,7 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  height: 11vh;
+  height: 82px;
   font-size: 12px;
   color: white;
   background-color: #3d5b99;
@@ -90,11 +90,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #e5e8f1;
-  height: 81vh;
+  height: 620px;
 }
 
 .main .left-content {
@@ -221,7 +223,7 @@
   font-size: 19px;
   width: 194px;
   height: 39px;
-  margin: 10px 0;
+  margin: 24px 0;
   padding: 7px 20px;
   background: -webkit-gradient(linear, left top, left bottom, from(#67ae55), to(#578843));
   background: linear-gradient(#67ae55, #578843);
@@ -240,7 +242,6 @@
 
 .main .last-text {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
-  padding-top: 15px;
   margin-top: 10px;
   font-size: 13px;
   color: #828387;
@@ -259,16 +260,20 @@
 
 .footer {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  margin: 30px 230px;
   font-size: 12px;
-  margin: 0 109.5px;
 }
 
-.footer span {
+.footer .current-language {
   color: #737373;
 }
 
 .footer .languages {
-  border-bottom: 1px solid #dddfe2;
+  margin-bottom: 10px;
+}
+
+.footer .languages span {
+  margin-right: 10px;
 }
 
 .footer a {
@@ -276,11 +281,32 @@
   color: #385898;
 }
 
-.footer a:hover {
-  text-decoration: underline;
+.footer .line {
+  border-bottom: 1px solid #dddfe3;
+}
+
+.footer .social-terms {
+  line-height: 1.6;
+  margin-top: 8px;
+}
+
+.footer .social-terms span {
+  padding-right: 20px;
 }
 
 .footer .final-word {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  margin-top: 20px;
+  font-size: 11px;
   color: #737373;
+}
+
+@media (max-width: 768px) {
+  .left-content {
+    display: none;
+  }
+  .footer {
+    margin-left: 160px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
