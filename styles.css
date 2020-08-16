@@ -28,7 +28,7 @@
   height: 82px;
   font-size: 12px;
   color: white;
-  background-color: #3d5b99;
+  background-color: #ad2167;
 }
 
 .header .header-left {
@@ -68,7 +68,7 @@
 }
 
 .header .header-password a {
-  color: #9ab4d8;
+  color: #eb9696;
   text-decoration: none;
 }
 
@@ -80,7 +80,7 @@
   padding: 3px;
   margin-left: 12px;
   color: white;
-  background-color: #4267b2;
+  background-color: #e66a6a;
   cursor: pointer;
   outline: none;
   border: none;
@@ -95,7 +95,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #e5e8f1;
+  background-color: #e0e2e8;
   height: 620px;
 }
 
@@ -109,7 +109,17 @@
   margin-top: 40px;
   font-size: 19px;
   line-height: 29px;
-  color: #0e3860;
+  color: #1165b3b1;
+  font-weight: bold;
+}
+
+.main .left-content .left-content-desc {
+  width: 400px;
+  margin-top: 24px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ad2167;
   font-weight: bold;
 }
 
@@ -130,12 +140,13 @@
 
 .main .right-content .right-content-title {
   font-size: 36px;
-  color: #333333;
-  font-weight: 600;
+  color: #337ec4b1;
   margin-bottom: 10px;
 }
 
 .main .right-content .right-content-desc {
+  color: #ad2167;
+  font-weight: bold;
   font-size: 19px;
 }
 
@@ -210,7 +221,7 @@
 }
 
 .main .btn-desc a {
-  color: #385898;
+  color: #ad2167;
   text-decoration: none;
 }
 
@@ -224,9 +235,8 @@
   width: 194px;
   height: 39px;
   margin: 24px 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(#67ae55), to(#578843));
-  background: linear-gradient(#67ae55, #578843);
-  border: 1px solid #69a74f;
+  background: #bd4781;
+  border: 1px solid #ae4678;
   border-radius: 5px;
   color: white;
   outline: none;
@@ -234,10 +244,10 @@
 }
 
 .main .last-btn:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#7abd6a), to(#6eb353));
-  background: linear-gradient(#7abd6a, #6eb353);
-  -webkit-box-shadow: inset 0 1px 1px #a4e388;
-          box-shadow: inset 0 1px 1px #a4e388;
+  background: -webkit-gradient(linear, left top, left bottom, from(#b73473), to(#b32c6d));
+  background: linear-gradient(#b73473, #b32c6d);
+  -webkit-box-shadow: inset 0 1px 1px #b72a6e;
+          box-shadow: inset 0 1px 1px #b72a6e;
 }
 
 .main .last-text {
@@ -249,7 +259,7 @@
 }
 
 .main .last-text a {
-  color: #385898;
+  color: #ad2167;
   font-weight: bold;
   text-decoration: none;
 }
@@ -278,7 +288,7 @@
 
 .footer a {
   text-decoration: none;
-  color: #385898;
+  color: #ad2167;
 }
 
 .footer .line {
