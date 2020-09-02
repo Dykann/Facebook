@@ -7,6 +7,8 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+// Header part :
+
 .header-email,
 .header-password {
   display: flex;
@@ -64,6 +66,8 @@
   }
 }
 
+// Main left-part :
+
 .main {
   display: flex;
   flex-wrap: wrap;
@@ -87,10 +91,13 @@
       text-align: center;
       font-size: 18px;
       line-height: 24px;
-      color: #ad2167;
+      color: #bc2b73;
       font-weight: bold;
     }
   }
+
+  // Main right-part :
+
   .right-content {
     display: flex;
     flex-direction: column;
@@ -206,6 +213,8 @@
   }
 }
 
+// Footer part :
+
 .footer {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular",
     sans-serif;
@@ -242,6 +251,8 @@
     color: #737373;
   }
 }
+
+// Media rules :
 
 @media (max-width: 768px) {
   .left-content {
