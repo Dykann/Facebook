@@ -25,7 +25,6 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  height: 82px;
   font-size: 12px;
   color: white;
   background-color: #ad2167;
@@ -35,10 +34,16 @@
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  margin-top: 12px;
-  margin-left: 24px;
-  font-size: 38px;
-  cursor: pointer;
+  padding-top: 12px;
+  padding-left: 24px;
+}
+
+.header .header-left .header-left--title {
+  font-size: 42px;
+}
+
+.header .header-left .signature {
+  font-size: 18px;
 }
 
 .header .header-right {
@@ -48,8 +53,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 8px;
-  margin-right: 32px;
+  padding-top: 8px;
+  padding-right: 32px;
 }
 
 .header .header-right input[type="text"] {
@@ -270,7 +275,7 @@
 
 .footer {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
-  margin: 30px 230px;
+  padding: 30px 230px;
   font-size: 12px;
 }
 
@@ -311,12 +316,36 @@
   color: #737373;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 980px) {
   .left-content {
     display: none;
   }
   .footer {
-    margin-left: 160px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 200px;
+  }
+  .footer .languages,
+  .footer .social-terms {
+    width: 380px;
+  }
+  .footer .final-word {
+    padding-right: 32px;
+    width: 130px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-left {
+    display: none;
   }
 }
 /*# sourceMappingURL=styles.css.map */
