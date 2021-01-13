@@ -1,8 +1,6 @@
-# Facebook-copycat
-Sass, responsive - https://facebook-dykann.netlify.app/
+# Facebook
 
-<h2> Facebook </h2>
-
-Old Facebook login page created from scratch (interface) 
+Facebook login page created from scratch (interface) 
 in a different style : <strong>Saint Valentin Theme</strong>
 
+You can check the website on: https://facebook-dykann.netlify.app/
